@@ -14,7 +14,9 @@ It consists of two parts :
 * Electron-builder and electron-packer (to build binaries for (OSX,WINDOWS,LINUX))
 1. ```git clone https://github.com/AhMyth/AhMyth-Android-RAT.git```
 2. ```cd AhMyth-Android-RAT/AhMyth-Server```
-3. ```npm start```
+3. ```npm install```  (runs `npm install` in the inner app automatically)
+4. ```npm test```
+5. ```npm start```
 
 #### 2) From binaries
 ###### Prerequisite :
