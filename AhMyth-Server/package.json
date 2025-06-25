@@ -14,7 +14,9 @@
         "asarUnpack": "**/app/Factory/**/*"
     },
     "scripts": {
-        "start": "npx electron ./app",
+        "start": "npx electron --no-sandbox ./app",
+        "test": "echo \"No tests specified\"",
+        "postinstall": "cd app && npm install",
         "clean": "rm -rf ./dist",
         "build": "npm run build:linux && npm run build:win",
         "build:linux": "npm run build:linux32 && npm run build:linux64",
